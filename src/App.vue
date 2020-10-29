@@ -1,18 +1,18 @@
 <template>
-    <div id="app">
-        <v-app>
-            <v-main fluid fill-height>
-              <v-slide-x-reverse-transition :hide-on-leave="true">
-                <router-view></router-view>
-                </v-slide-x-reverse-transition>
-            </v-main>
-        </v-app>
-    </div>
+  <div id="app">
+    <v-app>
+      <v-main fluid fill-height>
+          <router-view></router-view>
+      </v-main>
+    </v-app>
+  </div>
 </template>
 
 <style>
 #app {
-    font-family: Montserrat, sans-serif;
-    color: #25292e;
+  font-family: Montserrat, sans-serif;
+  background-color: #8eabf5;
+  background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 </style>
